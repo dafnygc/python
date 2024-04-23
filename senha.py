@@ -30,7 +30,11 @@ if n1 < n2 and n1 < n2
   else:
     p1 = n3
 
+    RANGER
+
+            for i in range (1,10):
+print (i)
 
 
-            
+
             
