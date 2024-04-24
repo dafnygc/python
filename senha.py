@@ -35,6 +35,30 @@ if n1 < n2 and n1 < n2
             for i in range (1,10):
 print (i)
 
+nome = input ("digite seu nome")
+idade = input ("digite sua idade")
+sexo = input ("digite seu sexo")
+
+nome = input ("digite seu nome")
+idade = input ("digite sua idade")
+sexo = input ("digite seu sexo")
+
+nome = input ("digite seu nome")
+idade = input ("digite sua idade")
+sexo = input ("digite seu sexo")
+
+print ("nome:",nome )
+print ("idade:", idade)
+print ("sexo:", sexo)
+
+print ("nome:",nome )
+print ("idade:", idade)
+print ("sexo:", sexo)
+
+print ("nome:",nome )
+print ("idade:", idade)
+print ("sexo:", sexo)
+
 
 
             
