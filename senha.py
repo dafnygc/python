@@ -60,5 +60,11 @@ print ("idade:", idade)
 print ("sexo:", sexo)
 
 
+b = int(input("digite o valor da base:"))
+e = int(input("digite o valor da exponente:"))
+r = b
+for (i in range (1,e)
+     r=r*b
+     print(resultado:"," {:.2f}".format(r))
 
             
