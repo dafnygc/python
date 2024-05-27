@@ -67,4 +67,25 @@ for (i in range (1,e)
      r=r*b
      print(resultado:"," {:.2f}".format(r))
 
-            
+
+
+            def Forca (tentativas):
+f1 = "     +-------+ "
+f2 = "     |         "
+f3 = "     |         "
+f4 = "     |         "
+f5 = "     |         "
+f6 = "     |         "
+f7 = " ____|____     "
+
+if tentativas >= 1:
+  f2 = "  |    |   "
+
+ if tentativas >= 2:
+   f3 = " |    |  "
+
+ if tentativas >= 3:
+   f4 = " |    | "
+
+ if tentativas >= 4:
+   f5 = " |    | "
