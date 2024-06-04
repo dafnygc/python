@@ -68,24 +68,64 @@ for (i in range (1,e)
      print(resultado:"," {:.2f}".format(r))
 
 
+def Forca (tentativas):
+   f1 = "       +-------+ "
+   f2 = "       |         "
+   f3 = "       |         "
+   f4 = "       |         "
+   f5 = "       |         "
+   f6 = "       |         "
+   f7 = " ______|______   "
 
-            def Forca (tentativas):
-f1 = "     +-------+ "
-f2 = "     |         "
-f3 = "     |         "
-f4 = "     |         "
-f5 = "     |         "
-f6 = "     |         "
-f7 = " ____|____     "
+   if tentativas >= 1: 
+      f1 = "  |   |    " 
 
-if tentativas >= 1:
-  f2 = "  |    |   "
+   if tentativas >= 2: 
+      f2 = " |    |  "
 
- if tentativas >= 2:
-   f3 = " |    |  "
+   if tentativas >= 3:
+      f3 = " |    | "
 
- if tentativas >= 3:
-   f4 = " |    | "
+   if tentativas >= 4: 
+      f4 = " |    | "
 
- if tentativas >= 4:
-   f5 = " |    | "
+   if tentativas >= 5: 
+      f5 = " |    | "
+
+   if tentativas >= 6: 
+      f6 = " |    | "
+
+      if tentativas >= 7: 
+      f7 = " |    / "
+
+   if tentativas >= 8: 
+      f8 = " |    / \ "
+
+   print(f1)
+   print(f2)
+   print(f3)
+   print(f4)
+   print(f5)
+   print(f6)
+   print(f7)
+   print(f8)
+
+def continua();
+   while True:
+      print("-" * 20)
+      novamente = input("Quer jogar novamente:S/N")upper()
+     if nomamente == "S":
+     acabou = False
+    break
+     else:
+     print("digite S ou N ")
+     return Acabou 
+
+Forca(0)
+
+def sorteiapalavra():
+   lista=["amor","ola","tudo bem","tchau",]
+   return random.choice(lista)
+
+import random
+print(sorteiapalavra)
