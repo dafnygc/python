@@ -96,7 +96,7 @@ def Forca (tentativas):
       f6 = " |    | "
 
       if tentativas >= 7: 
-      f7 = " |    / "
+         f7 = " |    / "
 
    if tentativas >= 8: 
       f8 = " |    / \ "
@@ -110,14 +110,13 @@ def Forca (tentativas):
    print(f7)
    print(f8)
 
-def continua();
+def continua():
    while True:
       print("-" * 20)
-      novamente = input("Quer jogar novamente:S/N")upper()
-     if nomamente == "S":
-     acabou = False
-    break
-     else:
+      novamente = input("Quer jogar novamente:S/N").upper()
+      acabou = False
+      break
+   else:
      print("digite S ou N ")
      return Acabou 
 
@@ -129,3 +128,13 @@ def sorteiapalavra():
 
 import random
 print(sorteiapalavra)
+
+def apresentapalavra(letras,palavras):
+   npalavra="_" * len(palavras)
+   print(apresentapalavra("ab","amor"))
+
+   print(apresentapalavra( "ab","abacaxi"))
+   for l in range(len(palavra)):
+      return npalavra
+   print(palavra[p])
+   
