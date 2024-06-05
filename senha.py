@@ -135,6 +135,11 @@ def apresentapalavra(letras,palavras):
 
    print(apresentapalavra( "ab","abacaxi"))
    for l in range(len(palavra)):
-      return npalavra
-   print(palavra[p])
+     print(palavra[p])
+   if letra[l]==palavras[p]:
+      print(letras[l])
+      print(l)
+      print(p)
+
+      return npalavra 
    
