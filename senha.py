@@ -141,5 +141,14 @@ def apresentapalavra(letras,palavras):
       print(l)
       print(p)
 
-      return npalavra 
+      return npalavra
+def apresentaPalavras(letras,palavras):
+    novaPalavras= "_" * len(palavras)
+    for L in range(0,len(letras)):
+        for P in range (0,len(palavras)):
+            if palavras[P]==letras[L]:
+                novaPalavras = novaPalavras[0:P*2]+palavras[P]+" "+novaPalavras[P*2:]
+                return palavras
+            
+      
    
