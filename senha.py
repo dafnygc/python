@@ -149,6 +149,18 @@ def apresentaPalavras(letras,palavras):
             if palavras[P]==letras[L]:
                 novaPalavras = novaPalavras[0:P*2]+palavras[P]+" "+novaPalavras[P*2:]
                 return palavras
-            
+
+            listafrutas=["uva","melancia","banana"]
+frutas="uva"
+print(listafrutas[1])
+print(frutas[1])
+print(listafrutas[2][0])
+listafrutas.append("abacaxi")
+print(listafrutas)
+listafrutas.remove("banana")
+print(listafrutas)
+listafrutas.sort()
+print(listafrutas)
+
       
    
