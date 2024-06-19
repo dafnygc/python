@@ -162,5 +162,23 @@ print(listafrutas)
 listafrutas.sort()
 print(listafrutas)
 
+with open("arqTXT/nome.txt","r") as arquivo:
+     while True:
+             txt = arquivo.read()
+             if not txt:
+                    break
+             print(txt)
+                
+with open("arqTXT/nome.txt", "r") as f:
+       listaTexto = f.readlines()
+       for texto in listaTexto:
+        print(texto)
+with open("arqTXT/nome2.txt","W") as f: 
+      f.write('Dafny\n')
+      f.write('Guetten\n')
+      f.write('Cora\n')
+
+
+
       
    
