@@ -182,3 +182,24 @@ with open("arqTXT/nome2.txt","W") as f:
 
       
    
+def criar_conta(numero,nome,saldo inicial,limite):
+    conta={"numero":numero,"nome":nome,"saldo inicial":saldo,"limite":limite}
+    return conta
+def saldo(conta):
+    print("contanumero:{}",format(conta["numero"]))
+    print("nome:nome"+conta["nome"])
+    print("saldo"{}.format(conta["saldo"]))
+def deposito(conta,valor):
+    conta["saldo"]+=valor 
+    return
+def saque(conta,valor):
+    if((conta["saldo"]+["limite"])-valor)>=0:conta["saldo"]-=valor
+    return
+
+conta1=criar_conta(1234,"Dafny",50,100)
+saldo(conta00)
+saldo(contas01)
+
+
+
+
