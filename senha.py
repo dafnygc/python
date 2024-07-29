@@ -213,5 +213,44 @@ extrato(conta02,)
 sacar(conta01,30)
 sacar(conta02,20)
 
+for i in range (1,100):
+    print(i)
+    i=0
+    c=True
+    while c:
+     i=i+1
+    print(i)
+    if i <=99:
+      c=False
+
+
+
+
+      with open("arquivo.txt","r") as f:
+    txt=f.readline()
+    print(txt)
+    txt2=f.readline()
+    print(txt2)
+
+with open("arquivo.txt2","r") as f:
+    f=f.readline()
+    print(l)
+    for ln in l:
+     print(ln)
+
+with open("arquivo.txt","r") as f:
+   texto=f.read()
+   print(texto)
+
+   with open("arquivo.txt","w") as f:
+        f.write("text 1\h")
+        f.write("text 2\h")
+
+try:
+  f=open("arquivo2.txt","w")
+  f.write("eu 1\h")
+  f.write("eu 2\h")
+finally:
+  f.close()
 
 
