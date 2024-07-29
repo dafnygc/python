@@ -179,10 +179,6 @@ with open("arqTXT/nome2.txt","W") as f:
       f.write('Cora\n')
 
 
-
-      
-   
-
 def criar_conta(numero,nome,saldo inicial,limite):
     conta={"numero":numero,"nome":nome,"saldo inicial":saldo}
     return conta
@@ -213,6 +209,11 @@ extrato(conta02,)
 sacar(conta01,30)
 sacar(conta02,20)
 
+
+
+
+
+
 for i in range (1,100):
     print(i)
     i=0
@@ -222,8 +223,6 @@ for i in range (1,100):
     print(i)
     if i <=99:
       c=False
-
-
 
 
       with open("arquivo.txt","r") as f:
@@ -253,4 +252,23 @@ try:
 finally:
   f.close()
 
+class conta:
+    def __init__(self,numero,titular,saldo inicial,limite):
+        self.numero=numero
+        self.titular=titular
+        self.saldo=saldo
+        self.limite=limite
+
+
+
+
+
+
+
+
+
+conta1=conta 
+print(conta1) 
+conta1=conta(134,"Dafny",600.00,50.00)
+print(conta1)
 
