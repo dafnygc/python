@@ -272,3 +272,24 @@ print(conta1)
 conta1=conta(134,"Dafny",600.00,50.00)
 print(conta1)
 
+
+from cliente import cliente
+
+cliente("leandro")
+
+print(cliente.nome)
+
+print("metodo nome do cliente;,cliente.get_nome")
+
+class cliente:
+    def__init__(self, nome);
+        self.__nome = nome 
+    
+    
+    def get_nome(self):
+        return self.__nome.title()
+    
+    @property
+    def nome(self):
+        return self.__nome.title()
+
