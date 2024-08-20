@@ -293,3 +293,31 @@ class cliente:
     def nome(self):
         return self.__nome.title()
 
+
+
+def retangulo(tipoR,largura,altura):
+    r=0
+    if tipoR == "area":
+     r=largura*altura
+    elif tipoR == "Perimetro":
+      r=2*(largura+altura)
+    return r
+    
+
+def circulo(tipoR,largura,altura):
+    r=0
+    if tipoR == "area":
+     r=largura*altura
+    elif tipoR == "Perimetro":
+        r=2*(largura+altura)
+    return r
+    
+    
+a= retangulo("area",15,4.5)
+print(f´area:{a}´)
+      
+def verifica_reultado(alturalargura,raio):
+  print(f´ retangulo area:{ retangulo("area",largura,altura)}´)
+ print(f´ŕetangulo Perimetro:{retangulo("perimetro,largura,altura")})
+
+ verifica_resultado(15,6,7,8)
